@@ -1,0 +1,411 @@
+@import 'fonts.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+i {
+    color: white;
+}
+
+header {
+    background: url(../img/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 670px;
+    margin-bottom: 96px;
+}
+
+.container {
+    max-width: 1110px;
+    width: 100%;
+}
+
+.header-top {
+    padding-top: 17px;
+    margin-bottom: 76px;
+}
+
+nav ul li a {
+    font-size: 12px;
+    color: white;
+    margin: 0 16px;
+    font-family: 'm-medium';
+    text-transform: uppercase;
+    color: black;
+}
+
+nav ul li a:hover {
+    color: #00bb48;
+    font-weight: bold;
+}
+
+.header-main h1 {
+    font-size: 35px;
+    font-family: 'm-medium';
+    line-height: 59px;
+}
+.header-main p {
+    width: 441px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #787878;
+    font-family: 'm-thin';
+    margin-bottom: 56px;
+}
+
+.header-main a {
+    font-size: 12px;
+    font-family: 'm-medium';
+    padding: 21px 57px 23px 45px;
+    text-transform: uppercase;
+    background: #00bb48;
+    color: #fff;
+}
+
+.about-cont {
+    margin-bottom: 42px;
+}
+
+.about-cont h3{
+    font-size: 34px;
+    font-family: 'm-medium';
+    line-height: 66px;
+}
+
+.about-cont p {
+    text-align: center;
+    font-size: 13.85px;
+    font-family: 'nunito-reg';
+    width: 539px;
+    color: #787878;
+    line-height: 20px;
+    margin-bottom: 53px;
+}
+
+.skill-img-cont {
+    width: 50%;
+}
+
+.skill-img {
+    width: 100%;
+}
+
+.skills-cont {
+    width: 50%;
+    background: #f8f9f9
+}
+
+.skills {
+    width: 500px;
+}
+
+.skills h3 {
+    font-size: 30px;
+    margin-bottom: 39px;
+    font-family: 'm-medium';
+    font-weight: bold;
+}
+
+.skills li {
+    margin: 15px 0;
+}
+
+.bar {
+    display: block;
+    background: #d8d8d8;
+    height: 4px;
+    margin-bottom: 41px;
+}
+
+.bar span {
+    height: 3px;
+    float: left;
+    background: #007d2f;
+}
+
+.skills p {
+    font-size: 12px;
+    font-family: 'm-medium';
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.skills p span {
+    margin-left: 18px;
+}
+
+.first-skill {
+    width: 75%;
+}
+
+.second-skill {
+    width: 90%;
+}
+
+.third-skill {
+    width: 65%;
+}
+
+.stats-cont {
+    height: 240px;
+    background: #007d2f;
+}
+
+.col-2 {
+    text-align: center;
+}
+
+.col-2 i {
+    font-size: 40px;
+    color: white;
+}
+
+.col-2 p:nth-child(2) {
+    font-size: 18px;
+    margin-top: 11px;
+    margin-bottom: 0;
+    color: #fff;
+    font-family: 'm-medium';
+}
+
+.col-2 p:nth-child(3) {
+    font-size: 12px;
+    color: #fff;
+    font-family: 'm-medium';
+    text-transform: uppercase;
+}
+
+.photos-cont {
+    width: 100%;
+}
+
+.photo {
+    position: relative;
+    width: 25%;
+}
+
+.photo img {
+    width: 100%;
+    margin: 0;
+}
+
+.photo:hover .descr {
+    opacity: 1;
+}
+
+.descr {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.load_works {
+    font-size: 21px;
+    font-family: 'm-medium';
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    border: 0;
+    text-transform: uppercase;
+    background: #007d2f;
+    padding: 46px 0 40px;
+}
+
+.our-work-cont {
+    width: 540px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 98px;
+}
+
+.our-work-cont h3 {
+    font-size: 43px;
+    font-family: 'm-medium';
+    margin-bottom: 29px;
+}
+
+.our-work-cont p {
+    font-size: 22px;
+    font-family: 'nunito-reg';
+    color: #787878;
+    margin-bottom: 47px;
+}
+
+.our-work-cont video {
+    display: block;
+    width: 1110px;
+    height: 745px;
+    margin-bottom: 100px;
+}
+
+.icon-stats {
+    background: #f5f5f5;
+    padding: 100px 0;
+}
+
+.i-stats-icon {
+    font-size: 47px;
+    color: #656565;
+    margin-bottom: 28px;
+}
+
+.i-stats-title {
+    font-size: 12px;
+    font-family: 'm-medium';
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 32px;
+}
+
+.i-stats-desc{
+    font-size: 15px;
+    font-family: 'nunito-reg';
+    color: #787878;
+    text-align: center;
+    margin-bottom: 54px;
+}
+
+.error-bloke {
+    height: 500px;
+    background: #000;
+}
+
+.error-bloke p {
+    font-size: 38px;
+    font-family: 'm-medium';
+    text-align: center;
+    color: #fff;
+    width: 750px;
+}
+
+.sponsors {
+    padding: 67px 0 68px;
+}
+
+.message {
+    background: #f5f5f5;
+    padding: 27px 0 100px;
+}
+
+.message h2 {
+    font-size: 30px;
+    font-family: 'm-medium';
+    text-align: center;
+    font-weight: bold;
+    line-height: 58px;
+}
+
+.message p {
+    font-size: 16px;
+    color: #787878;
+    margin: 0 auto;
+    text-align: center;
+    width: 536px;
+    line-height: 24px;
+    margin-bottom: 39px;
+}
+
+.form-1 {
+    width: 730px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.form-1 input {
+    width: 350px;
+    height: 48px;
+    outline: none;
+    border: none;
+    padding-left: 14px;
+}
+
+.form-2 {
+    width: 730px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.form-2 input {
+    width: 100%;
+    height: 48px;
+    outline: none;
+    border: none;
+    padding-left: 14px;
+}
+
+.form-3 {
+    width: 730px;
+    margin: 0 auto;
+    margin-bottom: 53px;
+}
+
+.form-3 textarea {
+    display: block;
+    width: 730px;
+    height: 170px;
+    padding-left: 14px;
+    outline: none;
+    border: none;
+    padding-top: 14px;
+}
+
+textarea {
+    resize: none;
+}
+
+.form-4 {
+    width: fit-content;
+    margin: auto;
+}
+
+.form-4 a {
+    font-size: 12px;
+    color: #fff;
+    background: #007d2f;
+    font-family: 'm-medium';
+    padding: 23px 25px 22px 25px;
+    text-transform: uppercase;
+}
+
+footer {
+    background: #000;
+    color: #fff;
+    height: 284px;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: #007b2f;
+}
+
+.footer-info h3 {
+    margin-bottom: 28px;
+}
+
+.footer-info p {
+    margin: 0;
+}
+
+.footer-list-cont {
+    width: 255px;
+}
